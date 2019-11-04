@@ -1,4 +1,5 @@
 # Write your code here.
 def badge_maker(names)
-  puts "Hello, my name is #{names}"
+  names.each do |individual|
+  puts "Hello, my name is #{individual}."
 end
