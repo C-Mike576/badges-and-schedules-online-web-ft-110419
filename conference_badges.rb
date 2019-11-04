@@ -8,4 +8,5 @@ def batch_badge_creator(arr)
   arr.each do |name|
     list << "Hello, my name is #{name}."
   end
+  list
 end
